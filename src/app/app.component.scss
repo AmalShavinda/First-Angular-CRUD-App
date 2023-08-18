@@ -1,0 +1,92 @@
+
+.body {
+    background-color: rgb(235, 235, 235);
+}
+.body-container {
+    display: flex;
+    flex: 2;
+    
+}
+
+.nav-container {
+    background-color: white;
+}
+
+img {
+    padding: 20px;
+}
+
+h4{
+    padding-left: 40px;
+    padding-top: 30px;
+}
+
+.left-side form {
+    padding: 20px;
+    margin-top: 30px;
+    width: 500px;
+    margin: 30px;
+    background-color: white;
+    padding: 30px 20px;
+    box-shadow:  0 0 18px #888888
+}
+
+.left-side .details{
+    display: flex;
+    flex-direction: column;
+}
+
+.left-side form div label {
+    padding: 10px 0;
+    color: gray;
+    font-size: 12px;
+}
+
+.left-side form div input {
+    padding: 5px;
+    font-size: 12px;
+}
+
+.left-side form div select {
+    padding: 5px;
+    font-size: 12px;
+}
+
+.left-side .btn {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+}
+
+.reset-btn {
+    border: 2px solid orange;
+    border-radius: 5px;
+    background-color: white;
+    margin-right: 20px;
+    color: orange;
+    cursor: pointer;
+}
+
+.save-btn {
+    background-color: orange;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+}
+
+button {
+    padding: 10px 40px;
+    margin-top: 20px;
+    justify-content: right;
+}
+
+.emp-details div{
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+
+
